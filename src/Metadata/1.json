@@ -1,0 +1,18 @@
+{
+    "title": "Asset Metadata",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "CybroPunk #1"
+        },
+        "description": {
+            "type": "string",
+            "description": "The rarest of them all. This one is reserved for the king."
+        },
+        "image": {
+            "type": "string",
+            "description": "ipfs://QmVsNGRmQZhsqxyRfpQK8rZcksG8m5jeQtvMF7t52dAEw4/1.png"
+        }
+    }
+}

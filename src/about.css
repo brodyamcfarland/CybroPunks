@@ -1,0 +1,23 @@
+.about__container {
+    border: 1px solid white;
+    width: 60rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.about__content {
+    font-size: .8rem;
+    text-align: left;
+}
+
+.close__about {
+    position: fixed;
+    left: -22rem;
+    top: -1rem;
+}

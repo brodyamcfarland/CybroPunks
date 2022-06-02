@@ -1,0 +1,18 @@
+{
+    "title": "Asset Metadata",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "CybroPunk #2"
+        },
+        "description": {
+            "type": "string",
+            "description": "Congratulations, you did it."
+        },
+        "image": {
+            "type": "string",
+            "description": "ipfs://QmVsNGRmQZhsqxyRfpQK8rZcksG8m5jeQtvMF7t52dAEw4/2.png"
+        }
+    }
+}
