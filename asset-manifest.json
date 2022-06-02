@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/crybropunks/static/css/main.438ace86.css",
+    "main.js": "/crybropunks/static/js/main.ccdc9693.js",
+    "static/media/8bitbg.gif": "/crybropunks/static/media/8bitbg.d8485747895c9fe9df9a.gif",
+    "index.html": "/crybropunks/index.html",
+    "main.438ace86.css.map": "/crybropunks/static/css/main.438ace86.css.map",
+    "main.ccdc9693.js.map": "/crybropunks/static/js/main.ccdc9693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.438ace86.css",
+    "static/js/main.ccdc9693.js"
+  ]
+}
