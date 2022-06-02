@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/crybropunks/static/css/main.438ace86.css",
-    "main.js": "/crybropunks/static/js/main.ccdc9693.js",
-    "static/media/8bitbg.gif": "/crybropunks/static/media/8bitbg.d8485747895c9fe9df9a.gif",
-    "index.html": "/crybropunks/index.html",
-    "main.438ace86.css.map": "/crybropunks/static/css/main.438ace86.css.map",
-    "main.ccdc9693.js.map": "/crybropunks/static/js/main.ccdc9693.js.map"
+    "main.css": "/cybropunks/static/css/main.eb31f11e.css",
+    "main.js": "/cybropunks/static/js/main.ccdc9693.js",
+    "static/media/8bitbg.gif": "/cybropunks/static/media/8bitbg.d8485747895c9fe9df9a.gif",
+    "index.html": "/cybropunks/index.html",
+    "main.eb31f11e.css.map": "/cybropunks/static/css/main.eb31f11e.css.map",
+    "main.ccdc9693.js.map": "/cybropunks/static/js/main.ccdc9693.js.map"
   },
   "entrypoints": [
-    "static/css/main.438ace86.css",
+    "static/css/main.eb31f11e.css",
     "static/js/main.ccdc9693.js"
   ]
 }
