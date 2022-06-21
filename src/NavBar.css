@@ -1,0 +1,35 @@
+/*===================================MEDIA QUERIES==============================================*/
+/*Tablets [601px -> 1200px]*/
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+    .navbtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        position: fixed;
+        left: -14rem;
+        top: 2rem;
+    }
+
+    .aboutconnect {
+        padding-left: 8rem;
+        transform: scale(.8);
+    }
+}
+/*Small smartphones [325px -> 425px]*/
+@media only screen and (max-width: 425px){
+    .navbtns {
+        gap: 1.5rem;
+        position: fixed;
+        left: -14rem;
+        top: .8rem;
+        transform: scale(.8);
+    }
+
+    .aboutconnect {
+        transform: scale(.7);
+        position: absolute;
+        left: 2rem;
+    }
+}

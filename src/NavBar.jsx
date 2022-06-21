@@ -5,6 +5,7 @@ import Twitter from './Assets/twitter_32x32.png';
 import Email from './Assets/email_32x32.png';
 import Opensea from './Assets/opensea_32x32.png';
 import About from './About';
+import './NavBar.css';
 
 const NavBar = ({ accounts, setAccounts }) => {
 
@@ -19,8 +20,8 @@ const NavBar = ({ accounts, setAccounts }) => {
         }
     }
     return (
-        <Flex justify="space-between" align="center" padding="30px">
-            <Flex justify="space-around" width="40%" padding="0 15rem">
+        <Flex className='navscale' justify="space-between" align="center" padding="30px">
+            <Flex className='navbtns' justify="space-around" width="40%" padding="0 15rem">
                 <Link href="https://www.facebook.com/profile.php?id=100081332770181">
                     <Image src={Facebook} boxSize="42px" margin="0 15px" />
                 </Link>
@@ -35,7 +36,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                 </Link>
             </Flex>
             
-            <Flex justify="space-around" align="center" bwidth="40%" padding="30px">
+            <Flex className='aboutconnect' justify="space-around" align="center" bwidth="40%" padding="30px">
                 <About />
                 <Spacer/>
                 <Spacer/>

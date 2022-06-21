@@ -17,7 +17,48 @@
 }
 
 .close__about {
-    position: fixed;
+    position: relative;
     left: -22rem;
     top: -1rem;
+}
+
+/*===================================MEDIA QUERIES==============================================*/
+/*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 1200px){
+    .about__container {
+        width: 40rem;
+    }
+
+    .close__about {
+        left: -12rem;
+        top: -1rem;
+    }
+}
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+    .about__container {
+        width: 23rem;
+        top: 18rem;
+    }
+
+    .close__about {
+        left: -4rem;
+        top: -1rem;
+    }
+    
+}
+/*Small smartphones [325px -> 425px]*/
+@media only screen and (max-width: 425px){
+    .about__container {
+        width: 34rem;
+        top: 4rem;
+        left: -7.2rem;
+        transform: scale(.9);
+        
+    }
+
+    .close__about {
+        left: -9rem;
+        top: -1rem;
+    }
 }

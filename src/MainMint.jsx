@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Box, Button, Flex, Input, Text } from '@chakra-ui/react';
 import { ethers, BigNumber } from 'ethers';
 import brodyNFT from './BrodyNFT.json';
+import './MainMint.css';
 
 const brodyNFTAddress = "0x093Ca4aA9aE4aedA0eCCEE1CA44E0d34F508321d";
 
@@ -42,11 +43,11 @@ const MainMint = ({ accounts, setAccounts }) => {
     };
 
     return (
-        <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
+        <Flex className='containermint' justify="center" align="center" height="100vh" paddingBottom="150px">
             <Box width="520px">
                 <div>
-                    <Text fontSize="48px" textShadow="0 5px #000000">CybroPunks</Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px 2px #000000">
+                    <Text className='minttext' fontSize="48px" textShadow="0 5px #000000">CybroPunks</Text>
+                    <Text className='minttext' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px 2px #000000">
                         In a world where nothing makes sense, CybroPunks are the only thing that makes sense.
                     </Text>
                     <Text fontSize="15px" letterSpacing="-5.5%" color="grey" fontFamily="VT323" textShadow="0 2px 2px #000000">
@@ -94,7 +95,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                         >Mint Now</Button>
                     </div>
                 ) : (
-                    <Text marginTop="70px" fontSize="30px" letterSpacing="5.5%" fontFamily="VT323" textShadow="0 3px #000000" color="#D6517D">You must be connected to Mint.</Text>
+                    <Text className='minttext' marginTop="70px" fontSize="30px" letterSpacing="5.5%" fontFamily="VT323" textShadow="0 3px #000000" color="#D6517D">You must be connected to Mint.</Text>
                 )}
             </Box>
         </Flex>
